@@ -1,0 +1,11 @@
+db:
+	roles:
+		id, name
+	users:
+		id, username, password, role_id, created_at, updated_at
+	positions:
+		id, name
+	users_info:
+		id, user_id, position_id, first_name, last_name, birthday, avatar, ...
+	working_time: 
+		id, user_id, date, start_time, end_time	
